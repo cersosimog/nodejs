@@ -13,7 +13,7 @@ app.post('/webhook', (req, res) => {
   console.log('Dados recebidos do Kommo:', kommoData);
 
   // Envia os dados para o Zendesk usando a API deles
-  fetch('https://petloosupport.zendesk.com/api/v2/tickets', {
+  fetch(, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
